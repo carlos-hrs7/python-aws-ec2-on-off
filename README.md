@@ -4,7 +4,7 @@ Script utilizando linguagem Python para automatizar Ligar e Desligar automaticam
 Escopo: 
 AWS EC2/LAMBDA/AMAZON-EVENT-BRIDGE/IAM/CLOUDWATCH & PYTHON
 
-1.Criar as funções Lambda; 
-2.Add os scripts python nas funções Lambda; 
+1.Criar as funções Lambda de Start e Stop; 
+2.Adicionar os scripts python nas funções Lambda; 
 3.Criar a IAM Role copiando o contéudo do script JSON;
 2.Criar agendamentos para ligar e desligar chamando as funções Lambda com o serviço do Amazon Event Bridge; 
